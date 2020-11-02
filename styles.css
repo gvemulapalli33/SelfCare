@@ -69,6 +69,10 @@ body {
     margin: 0 auto;
 }
 
+.msg-align {
+    text-align: center;
+}
+
 .btn {
     padding: 1em 2em;
     background-color: #134d71;
