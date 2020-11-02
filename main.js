@@ -22,13 +22,21 @@ class Medidate {
         this.affirmations = affirmations;
         this.mantras = mantras;
         this.$meditateMsg = document.querySelector('.message');
+        this.$button = document.querySelector('.btn');
         this.addEventListeners();
     }
 
     addEventListeners() {
         document.addEventListener('click', (event) => {
+            this.enableButton(event);
             this.showMessage(event);
         });
+    }
+
+    enableButton(event) {
+        if (event.target.checked) {
+            this.$button.disabled = false;
+        }
     }
 
     showMessage(event) {
