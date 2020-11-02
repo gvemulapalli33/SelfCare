@@ -71,6 +71,12 @@ body {
 
 .msg-align {
     text-align: center;
+    animation: fadeIn ease 20s;     
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 .btn {
@@ -83,8 +89,13 @@ body {
     width: 30%;
 }
 
-.btn:focus,.btn:hover {
+.btn:disabled {
     background-color: #78a7c6;
+}
+
+.btn:focus,.btn:hover {
+    background-color: #f7e4bf;
+    color: #000000;
 }
 
 .form-container {
