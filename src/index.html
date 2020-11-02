@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Self Care Center</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content="Website for getting quotes for self care">
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Self Care Center</h1>
+      <section class="form-container">
+        <h2 class="sub-title">Which type of message?</h2>
+        <form name="messageForm" class="message-form">
+          <section class="input-container">
+            <div>
+              <input type="radio" name="messageType" id="affirmations"/>
+              <label for="affirmations">affirmation</label>
+            </div>
+            <div>
+              <input type="radio" name="messageType" id="mantras"/>
+              <label for="mantras">mantra</label>
+            </div>
+          </section>
+          <button class="btn" disabled>Receive Message</button>
+        </form>
+      </section>
+      <section class="message">
+         <p class="icon"></p>
+      </section>
+    </main>
+  </body>
+</html>
