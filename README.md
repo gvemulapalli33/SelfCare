@@ -3,7 +3,8 @@
 Link to published site: https://gvemulapalli33.github.io/SelfCare/
 
 ## Features
-
+1. Add Random Affirmation and Mantras
+2. Responsive Design
 
 ## Set up
 1. npm install 
