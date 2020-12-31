@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gvemulapalli33/Cookbook.git"
+    "url": "git+https://gvemulapalli33.github.io/SelfCare/"
   },
   "author": "gvemulapalli",
   "license": "MIT",
-  "homepage": "https://github.com/gvemulapalli33/Cookbook.git",
+  "homepage": "https://gvemulapalli33.github.io/SelfCare/",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
